@@ -1,0 +1,31 @@
+{
+  "name": "places-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "build": "next build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Volkya/places-nodejs.git"
+  },
+  "keywords": [],
+  "author": "volkya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Volkya/places-nodejs/issues"
+  },
+  "homepage": "https://github.com/Volkya/places-nodejs#readme",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.4",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
