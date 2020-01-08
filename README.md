@@ -5,6 +5,6 @@ Check this list of my places visited
 ## RUN
 
 - Mongod service initialized
-- Npm i
+- `npm i`
 - `npm run dev` or `npm start`
 

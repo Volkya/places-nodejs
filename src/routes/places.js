@@ -8,6 +8,13 @@ const Place = require('../models/place');
 //     res.send('hello');
 // });
 
+// all places index
+
+
+router.get('/', (req, res) => {
+   res.render('places');
+});
+
 // add
 router.post('/add', async (req, res) => {
     const place = new Place(req.body);
