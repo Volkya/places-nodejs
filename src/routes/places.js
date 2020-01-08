@@ -52,4 +52,13 @@ router.get('/delete/:id', async (req, res) => {
     res.redirect('/');
 });
 
+// turn button
+router.get('/turn/:id', async (req, res) => {
+    const { id } = req.params;
+    const place = await Place.findById(id);
+    place.status = !place.status;
+    await place.save();
+    res.redirect('/');
+});
+
 module.exports  = router;

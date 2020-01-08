@@ -11,7 +11,7 @@
             <thread>
                 <tr class="table-info">
                     <td><%= places[i].name %></td>
-                    <td><a class="btn btn-secondary">Visitado</a></td>
+                    <td><a href="/turn/<%= places[i]._id %>" class="btn <%= places[i].status ? 'btn-info':'btn-secondary' %>">Visitado</a></td>
                 </tr>
             </thread>
             <tbody>
