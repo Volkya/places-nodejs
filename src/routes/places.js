@@ -41,14 +41,14 @@ router.get('/edit/:id', async (req, res) => {
 
 router.post('/edit/:id', async (req, res) => {
     const { id } = req.params;
-    await Place.update({id: id}, req.body);
+    await Place.update({ _id: id }, req.body);
     res.redirect('/');
 });
 
 // remove elements place by id
 router.get('/delete/:id', async (req, res) => {
     const { id } = req.params;
-    await Place.remove({id: id});
+    await Place.remove({ _id: id });
     res.redirect('/');
 });
 
