@@ -1,4 +1,4 @@
-## Places visitados
+## Places visited
 
 Check this list of my places visited
 
@@ -6,5 +6,5 @@ Check this list of my places visited
 
 - Mongod service initialized
 - `npm i`
-- `npm run dev` or `npm start`
+- `npm run dev`
 
