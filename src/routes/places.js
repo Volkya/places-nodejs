@@ -20,7 +20,7 @@ router.get('/', async (req, res) => {
 
 // add form and post
 router.get('/newPlace', (req, res) => {
-    res.render('newPlace');
+    res.render('places');
 });
 
 router.post('/add', async (req, res) => {

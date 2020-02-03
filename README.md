@@ -8,3 +8,8 @@ Check this list of my places visited
 - `npm i`
 - `npm run dev`
 
+| Language | Framework | Platform | Author |
+| -------- | -------- |--------|--------|
+| Nodejs | Express | Virtual Machine | Volkya |
+
+
