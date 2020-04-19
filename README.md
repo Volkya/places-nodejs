@@ -2,14 +2,14 @@
 
 Check this list of my places visited, with ejs as template engine.
 
-## RUN
+## RUN APP
 
 - Mongod service initialized
-- `npm i`
+- `npm i` install modules
 - `npm run dev` or `npm start`
 
-| Language | Framework | Platform | Author |
+| Language | Framework | Database | Platform | Author |
 | -------- | -------- |--------|--------|
-| Nodejs | Express | Virtual Machine | Volkya |
+| Nodejs | Express | Mongodb | Virtual Machine | Volkya |
 
 
