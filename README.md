@@ -10,6 +10,6 @@ Check this list of my places visited, with ejs as template engine.
 
 | Language | Backend | Database | Fronted | Platform | Author |
 | -------- | -------- |-------- | -------- | -------- | -------- |
-| Nodejs | Express | Mongodb | | EJS | Virtual Machine | Volkya |
+| Nodejs | Express | Mongodb | EJS | Virtual Machine | Volkya |
 
 
